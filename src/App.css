@@ -4,7 +4,7 @@
 }
 
 .container{
-  background: linear-gradient(to right bottom,#e1b382,#c89666);
+  background: linear-gradient(to right bottom,#b3f564,#ec9a4e);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .app-wrapper{
-  background-color: #12343b;
+  background-color: #6d0b58;
   min-width: 450px;
   min-height: 650px;
   border-radius: 10px; 
@@ -27,6 +27,9 @@
   color: #fff;
   text-align: center;
   margin: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .task-input{
@@ -35,6 +38,7 @@
   padding: 15px;
   margin-right: 25px;
   font-size: 20px;
+  font-weight: bold;
   color: #ccc;
   background-color: #000000;
   border: 1px solid #c89666;
@@ -94,10 +98,11 @@
 
 .list{
   width: 220px;
-  background-color: #12343b;
+  background-color: transparent;
   border:none;
-  color: #ccc;
+  color: #ededed;
   font-size: 20px;
+  font-weight: bold;
   padding-left: 10px;
   margin-right: 15px;
 }
