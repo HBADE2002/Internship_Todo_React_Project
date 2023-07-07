@@ -13,7 +13,7 @@
 }
 
 .app-wrapper{
-  background-color: #6d0b58;
+  background-color: #870c6c;
   min-width: 450px;
   min-height: 650px;
   border-radius: 10px; 
@@ -46,6 +46,7 @@
 
 }
 
+
 .button-add{
   width:70px;
   padding: 15px 15px;
@@ -76,9 +77,45 @@
   background-color: transparent;
   border-radius: 50%;
 }
+.button-inactive {
+  background-color: transparent;
+  color: #ababab;
+  cursor: not-allowed;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  
+}
+
+.button-incomplete {
+  background-color: transparent;
+  color: #ababab;
+  cursor: not-allowed;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+.button-incomplete:hover {
+  background-color: transparent;
+  color: #767676;
+  cursor: not-allowed;
+}
+
+
+.button-inactive:hover {
+  background-color: transparent;
+  color: #767676;
+  cursor: not-allowed;
+}
 
 .button-complete{
-  color: #ff6c6c;
+  color: #f44b4b;
+  margin-right: 10px;
+}
+.button-complete:hover {
+  color: #ff8383;
   margin-right: 10px;
 }
 
@@ -86,8 +123,17 @@
   color: #e2d029;
   margin-right: 10px;
 }
+
+.button-edit:hover {
+  color: #fff7af;
+  margin-right: 10px;
+}
 .button-delete{
   color: lightseagreen;
+}
+
+.button-delete:hover {
+  color: rgb(153, 239, 235);
 }
 
 .complete{
@@ -105,6 +151,14 @@
   font-weight: bold;
   padding-left: 10px;
   margin-right: 15px;
+}
+
+.__react_component_tooltip {
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
 }
 
 input:focus,
